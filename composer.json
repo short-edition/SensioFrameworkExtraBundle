@@ -1,5 +1,5 @@
 {
-    "name": "sensio/framework-extra-bundle",
+    "name": "short-edition/framework-extra-bundle",
     "description": "This bundle provides a way to configure your controllers with annotations",
     "keywords": ["annotations","controllers"],
     "type": "symfony-bundle",
@@ -12,7 +12,7 @@
     ],
     "require": {
         "php": ">=7.2.5",
-        "doctrine/annotations": "^1.0",
+        "doctrine/annotations": "^1.0|^2.0",
         "symfony/config": "^4.4|^5.0|^6.0",
         "symfony/dependency-injection": "^4.4|^5.0|^6.0",
         "symfony/framework-bundle": "^4.4|^5.0|^6.0",
