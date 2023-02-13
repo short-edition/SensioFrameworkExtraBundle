@@ -93,8 +93,6 @@ class DoctrineParamConverter implements ParamConverterInterface
             if (false === $object = $this->findOneBy($class, $request, $options)) {
                 if ($configuration->isOptional()) {
                     $object = null;
-                } else {
-                    throw new \LogicException(sprintf('Unable to guess how to get a Doctrine instance from the request information for parameter "%s".', $name));
                 }
             }
         }
